@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Rest Assured learning ATB 13x">
+    <test verbose="2" preserve-order="true" name="/Users/kaushiki/IdeaProjects/Learning_automation_test">
+        <classes>
+            <class name="com.kaushiki.khare.sample.ex_03_TestNG_Allure_Report.test_testNG">
+                <methods>
+                    <include name="test_TC1_valid_pincode"/>
+                    <include name="test_TC2_invalid_pincode"/>
+                    <include name="test_TC3_valid_pincode"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
